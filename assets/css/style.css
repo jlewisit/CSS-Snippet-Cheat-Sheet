@@ -1,3 +1,7 @@
+* {
+    background-color: rgb(48, 47, 47);
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -39,8 +43,20 @@
     margin-top: -20px;
 }
 
+/* All the stuff I added is below */
+h1 {
+    text-align: center;
+    color:rgba(232, 102, 236, 1)
+}
+
+.introP {
+    text-align: center;
+    color: #fff
+}
+
 .box {
-    margin: 20px
+    margin: 20px;
+    border: 2px dashed #fff;  
 }
 
 .box1 .box2 .box3 .box4 .box5 .box6 {
@@ -51,3 +67,11 @@
     border-radius: 8px;
 }
 
+footer {
+    text-align: center;
+    color:rgba(232, 102, 236, 1)
+}
+
+a[href*=".css"]::after {
+    content: ".\1F497";
+}
